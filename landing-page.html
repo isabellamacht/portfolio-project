@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roman Mythology</title>
+    <style>
+      .container {
+        background: linear-gradient(
+          to top,
+          #dad4ec 0%,
+          #dad4ec 1%,
+          #f3e7e9 100%
+        );
+        display: block;
+      }
+      h1 {
+        text-align: center;
+        color: #584494;
+        text-shadow: 5px 5px 8px rgba(88, 68, 148, 0.5);
+        font-weight: 700;
+      }
+      h2 {
+        text-align: center;
+        color: #584494;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 5px;
+      }
+      p {
+        line-height: 1.5;
+        font-size: 16px;
+        max-width: 80%;
+        text-align: start;
+        margin: 0 auto;
+      }
+
+      button {
+        display: block;
+        margin: 14px auto;
+        background: #584494;
+        color: #f3e7e9;
+        font-size: 18px;
+        padding: 10px 14px;
+        border-radius: 5px;
+        box-shadow: 4px 4px 10px #655596c2;
+        transition: all 150ms ease-in-out;
+      }
+      button:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+
+      .greek {
+        font-style: italic;
+      }
+      .read-more {
+        color: #584494;
+        text-decoration: none;
+        font-size: 12px;
+        text-align: center;
+        display: block;
+      }
+      .read-more:hover {
+        text-decoration: underline;
+      }
+      .footer {
+        font-size: 13px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <h1>Roman Mythology</h1>
+      <h2>Venus</h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/749/original/640px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?1631002906"
+        alt="Birth of Venus"
+      />
+      <br />
+      <p>
+        In Roman mythology, Venus was the goddess of love, sex, beauty, and
+        fertility. She was the Roman counterpart to the Greek goddess
+        <span class="greek">Aphrodite</span>. However, Roman Venus had many
+        abilities beyond the Greek <span class="greek">Aphrodite</span>; she was
+        a goddess of victory, fertility, and even prostitution. According to
+        Greek mythology Aphrodite was born of the foam from the sea after Saturn
+        (<span class="greek">Cronus</span>) castrated his father Uranus (<span
+          class="greek"
+          >Ouranos</span
+        >) and his blood fell to the sea. This latter explanation appears to be
+        more a popular theory due to the countless artworks depicting Venus
+        rising from the sea in a clam.
+      </p>
+      <a
+        href="https://en.wikipedia.org/wiki/Venus_(mythology)"
+        target="_blank"
+        class="read-more"
+      >
+        Read more on Wikipedia
+      </a>
+      <button class="buy-button">📚 Buy roman literature</button>
+      <br />
+      <p class="footer">This page was built by Isabella Macht</p>
+      <br />
+    </div>
+    <script>
+      function buy() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email adress?");
+
+        if (email.includes("@")) {
+          alert("Thank you, " + name + " 🌺! We'll be in touch by email 📧");
+        } else {
+          alert("Sorry, " + name + "! This is not a valid email adress 🙁");
+        }
+      }
+      let buyButton = document.querySelector(".buy-button");
+      buyButton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>

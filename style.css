@@ -1,15 +1,18 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #f4d19b;
+  --secondary-color: #f9f3df;
+  --headings-color: #8bc9f8;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
   display: block;
+  background-color: var(--secondary-color);
 }
 h1,
 h2,
 h3 {
   margin: 0;
+  color: var(--headings-color);
 }
 h1 {
   font-size: 96px;
@@ -27,6 +30,11 @@ p {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.nav-link {
+  color: #405e75 !important;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
