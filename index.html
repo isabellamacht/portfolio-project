@@ -16,13 +16,14 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/5db44ad87d.js" crossorigin="anonymous"></script>
     <title>Isabella Macht</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container">
-        <a class="navbar-brand" href="#">Isabella Macht</a>
+        <a class="navbar-brand" href="index.html">Isabella Macht</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,13 +38,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
+              <a class="nav-link" href="index.html#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact</a>
             </li>
         </div>
       </div>
@@ -51,21 +55,22 @@
     <br />
     <h2 class="text-center">👋 Hi I am</h2>
     <h1 class="text-center">Isabella Macht</h1>
-    <h3 class="text-center">🇩🇪 Front-end developer, based in Europe</h3>
+    <h3 class="text-center">Front-end developer in training</h3>
     <div class="navigation-links">
       <a href="about.html#contact" class="contact-link">Contact me</a>
       <a href="about.html" class="about-link">About me</a>
     </div>
-    <br />
-    <br />
+ 
+    <h2 id="projects">My projects</h2>
+  
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <img src="images/weather-app.png" alt="weather" class="img-fluid rounded">
         </div>
         <div class="col-md-6">
-          <h2 class="mb-3">Weather App</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
+          <h2 class="mb-3" id="subtitle">Weather App</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
           <div class="mt-5">
           <a href="https://ecstatic-yalow-9e0ad3.netlify.app/" target="_blank" class="primary-link">Launch Weather App</a>
         </div>
@@ -74,8 +79,8 @@
       </div>
       <div class="row mt-5">
         <div class="col-md-6">
-          <h2 class="mb-3">Landing Page</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
+          <h2 class="mb-3" id="subtitle">Landing Page</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
           <div class="mb-5 mt-5">
             <a href="landing-page.html" target="_blank" class="primary-link">Launch Landing Page</a>
           </div>
@@ -87,11 +92,19 @@
       </div>
       
       
-    
-    <div id="contact" class="mt-5 text-center">
-      <h2>📮 Contact me</h2>
-      <a href="mailto:[email]" class="email-link"> isabella.macht@yahoo.com </a>
-      
+    <h2 id="contact"><i class="fas fa-address-card"></i> Contact me</h2>
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <a href="https://www.linkedin.com/in/isabella-macht-925b58216/" target="_blank" class="linkedin"> <i class="fab fa-linkedin fa-3x"></i> </a>
+      </div>
+      <div class="col-md-4">
+        <a href="mailto:[email]" class="email-link"> <i class="fas fa-envelope-open-text fa-3x"></i> </a>
+      </div>
+      <div class="col-md-4">
+        <a href="https://github.com/isabellamacht" class="git"> <i class="fab fa-github-square fa-3x"></i> </a>
+      </div>
     </div>
+    <br />
+    <br />
   </body>
 </html>

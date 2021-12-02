@@ -13,6 +13,7 @@ h2,
 h3 {
   margin: 0;
   color: var(--headings-color);
+  text-align: center;
 }
 h1 {
   font-size: 96px;
@@ -27,11 +28,15 @@ h3 {
   opacity: 0.7;
 }
 p {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px;
+  color: #405e75;
 }
-
-.nav-link {
+img {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.nav-link,
+.navbar-brand {
   color: #405e75 !important;
 }
 
@@ -68,7 +73,15 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  transition: 3ms;
+  margin-left: 30px;
 }
+.primary-link:hover,
+.about-link:hover,
+.contact-link:hover {
+  color: var(--headings-color);
+}
+
 .about-paragraphs {
   margin: 10px;
 }
@@ -77,10 +90,35 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+
   text-decoration: none;
 }
 
-.email-link:hover {
-  text-decoration: underline;
+.linkedin {
+  display: flex;
+  justify-content: center;
+  color: #0e65c2;
+  text-decoration: none;
+}
+.git {
+  color: #212121;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.email-link:hover,
+.linkedin:hover,
+.git:hover {
+  color: var(--headings-color);
+}
+
+#projects {
+  padding: 25px;
+}
+#subtitle {
+  opacity: 0.7;
+}
+#contact {
+  margin-top: 30px;
 }
