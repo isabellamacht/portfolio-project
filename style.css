@@ -56,6 +56,13 @@ footer {
     rgb(249, 243, 223) 100%
   );
 }
+.bg-fill-2 {
+  background: linear-gradient(
+    270deg,
+    rgb(173, 214, 241) 0%,
+    rgb(249, 243, 223) 100%
+  );
+}
 .row {
   display: flex;
 }
