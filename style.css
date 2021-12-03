@@ -31,10 +31,10 @@ p {
   margin: 30px;
   color: #405e75;
 }
-img {
+/* img {
   padding-top: 30px;
   padding-bottom: 30px;
-}
+} */
 footer {
   font-size: 10px;
 
@@ -152,9 +152,27 @@ footer {
 }
 #contact {
   margin-top: 30px;
+  padding-top: 10px;
 }
 #tool-title {
   color: #405e75;
   font-weight: 40;
   padding-top: 5px;
+}
+
+#html {
+  color: #f75520;
+}
+#css {
+  color: #2191ec;
+}
+#js {
+  color: #e8d44d;
+}
+#bootstrap {
+  color: #7311f5;
+}
+.img {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
