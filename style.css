@@ -176,3 +176,15 @@ footer {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+#react {
+  animation: rotation 10s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
